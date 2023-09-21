@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+using namespace std;
+
+
+class Solution{
+public:
+	${1:int} solve($3){
+
+
+	}
+};
+
+
+int32_t main(){
+	Solution obj;
+
+	${2:cout<<}obj.solve();
+}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>basic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

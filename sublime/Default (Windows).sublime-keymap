@@ -1,0 +1,45 @@
+[
+	{ "keys":["ctrl+alt+s"],"command":"auto_save" },
+
+
+	{
+    	"keys": ["tab"],
+    	"command": "emmet_expand_abbreviation",
+    	"args": { "tab": true },
+    	"context": [
+    	    { "key": "emmet_capture_abbreviation" },
+    	    { "key": "selection_empty" },
+    	    { "key": "has_next_field", "operand": false },
+    	    { "key": "auto_complete_visible", "operand": false },
+    	    { "key": "selector", "operand": "source.css, source.sass, source.less, source.scss, source.stylus, source.postcss, source.jade, text.jade, source.pug, text.pug, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string" }
+    	]
+	},
+
+	{
+		"keys": ["alt+`"],
+		"command": "terminus_close",
+		"context":[{"key":"terminus_view"}]
+	},
+
+	// {
+	// 	"keys": ["alt+`"],
+	// 	"command": "toggle_terminus_panel",
+	// 	"args": {
+	// 		"cmd": "C:/Program Files/Git/bin/bash.exe",
+	// 		"cwd": "${file_path:${folder}}",
+	// 		"panel_name": "Terminus"
+	// 	}
+	// },
+
+	{
+		"keys": ["alt+`"],
+		"command": "toggle_terminus_panel",
+		"args": {
+			"cmd": "C:/Program Files/WindowsApps/Microsoft.PowerShell_7.3.6.0_x64__8wekyb3d8bbwe/pwsh.exe",
+			"working_dir": "${file_path}",
+			"panel_name": "Terminus"
+		}
+	},
+	
+
+]

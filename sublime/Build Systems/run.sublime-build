@@ -1,0 +1,22 @@
+// {
+//     "cmd": ["gcc", "${file}", "-o", "${file_path}/${file_base_name}.exe", "&&", "start", "wt.exe", "-d", "${file_path}", "pwsh.exe", "-NoExit", "-Command", "${file_path}/${file_base_name}.exe"],
+//     "shell": true,
+//     "working_dir": "${file_path}",
+//     "selector": "source.c",
+//     "encoding": "cp1252",
+//     "windows": {
+//         "shell": true
+//     }
+// }
+
+
+
+{
+    "cmd": ["start", "wt.exe", "-d", "${file_path}", "pwsh.exe", "-NoExit", "-Command", "run \"${file_name}\""],
+    "shell": true,
+    "working_dir": "${file_path}",
+    "encoding": "cp1252",
+    "windows": {
+        "shell": true
+    }
+}

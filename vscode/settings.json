@@ -1,0 +1,34 @@
+{
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": true,
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeEditorLong}",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Consolas, Hack NF, MesloLGM Nerd Font, JetBrainsMonoNL Nerd Font",
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "workbench.activityBar.visible": true,
+    "debug.openDebug": "openOnDebugBreak",
+    "editor.tabCompletion": "off",
+    "powershell.integratedConsole.focusConsoleOnExecute": true,
+    "files.defaultLanguage": "",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "powershell.buttons.showPanelMovementButtons": false,
+    "editor.fontSize": 18,
+    "debug.console.fontSize": 18,
+    "terminal.integrated.fontSize": 16,
+    "window.titleBarStyle": "custom",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+        "path": "bash",
+            "args": [
+            "-l"
+            ]
+        }
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}
