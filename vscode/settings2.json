@@ -1,0 +1,75 @@
+{
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": true,
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeEditorLong}",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Consolas, Hack NF, MesloLGM Nerd Font, JetBrainsMonoNL Nerd Font",
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "debug.openDebug": "openOnDebugBreak",
+    "editor.tabCompletion": "off",
+    "powershell.integratedConsole.focusConsoleOnExecute": true,
+    "files.defaultLanguage": "",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "powershell.buttons.showPanelMovementButtons": false,
+    "editor.fontSize": 18,
+    "debug.console.fontSize": 18,
+    "terminal.integrated.fontSize": 16,
+    "window.titleBarStyle": "custom",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash",
+        "args": ["-l"]
+      }
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "livePreview.defaultPreviewPath": "f:/demo.html",
+    "editor.lineNumbers": "relative",
+    "explorer.confirmDelete": false,
+    "terminal.external.windowsExec": "C:\\Users\\Acer\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.autohide": true,
+    "gitlens.mode.active": "zen",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "excalidraw.theme": "light",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "SQL-Formatter-VSCode.dialect": "plsql",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "window.newWindowDimensions": "inherit",
+    "workbench.colorTheme": "Noctis Obscuro",
+    "window.menuBarVisibility": "compact",
+    "[cpp]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.pinnedCommands": [
+      "workbench.action.tasks.configureTaskRunner",
+      "workbench.action.tasks.runTask"
+    ],
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+  
